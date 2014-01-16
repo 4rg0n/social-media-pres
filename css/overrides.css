@@ -1,6 +1,6 @@
 footer {text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);color:#eee;position:absolute;bottom:0;width:80%;height:5px;padding:35px 10%;font-family: "Lato", sans-serif;;text-align:center}
 .logo {
-    background:url('../img/unister.png');
+    /*background:url('../img/logo.png');*/
     background-repeat:no-repeat;
     background-size:100% auto;
     min-width:160px;

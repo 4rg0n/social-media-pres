@@ -8,6 +8,9 @@ Reveal.initialize({
     progress: true,
     history: true,
     center: true,
+    
+    width: 1000,
+    height: 700,
 
     theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
     transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
@@ -22,3 +25,4 @@ Reveal.initialize({
         }}
     ]
 });
+
