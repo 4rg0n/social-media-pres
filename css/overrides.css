@@ -1,0 +1,71 @@
+footer {text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);color:#eee;position:absolute;bottom:0;width:80%;height:5px;padding:35px 10%;font-family: "Lato", sans-serif;;text-align:center}
+.logo {
+    background:url('../img/unister.png');
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    min-width:160px;
+    min-height: 50px;
+    position:absolute;
+    top:22px;
+    left:0;
+    margin-left:10px;
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls {width:35px;height:35px}
+
+.reveal .controls div.navigate-up {left:0;top:-30px;border-bottom-width:12px}
+.reveal .controls div.navigate-down {left:0;top:30px;border-top-width:12px}
+.reveal .controls div.navigate-left {left:-30px;top:0;border-right-width:12px}
+.reveal .controls div.navigate-right {left:30px;top:0;border-left-width:12px}
+
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {border-right-color:rgba(0, 0, 0, 0.4)}
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {border-left-color:rgba(0, 0, 0, 0.4)}
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {border-bottom-color:rgba(0, 0, 0, 0.4)}
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {border-top-color:rgba(0, 0, 0, 0.4)}
+
+.reveal .controls div.navigate-left.enabled:hover {border-right-color:rgba(0, 0, 0, 0.8)}
+.reveal .controls div.navigate-right.enabled:hover {border-left-color:rgba(0, 0, 0, 0.8)}
+.reveal .controls div.navigate-up.enabled:hover {border-bottom-color:rgba(0, 0, 0, 0.8)}
+.reveal .controls div.navigate-down.enabled:hover {border-top-color:rgba(0, 0, 0, 0.8)}
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {background:rgba(255, 255, 255, 0.2);bottom:65px}
+
+.reveal .progress span {
+-webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+-moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+-ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+-o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+background:rgba(0, 0, 0, 0.4)}
+
+
+
+/*********************************************
+ * OVERWRITE REVEAL'S TRASH
+ *********************************************/
+.reveal table {margin:auto; border-spacing:0; border-collapse:collapse}
+.reveal table td {border:1px solid black; padding-left:0.5em; padding-right:0.5em; line-height:1.5em; vertical-align:middle}
+.reveal thead {font-size:0.6em}
+.reveal tbody {font-size:0.4em}
+.reveal tbody td.center {text-align:center}
+.reveal pre code {padding:0}
+.reveal cite, .reveal blockquote {font-style:italic}
+cite:before, blockquote:before {
+content: '„' ''}
+cite:after, blockquote:after {
+content: '' '“'}
+.reveal footer {font-family:'open sans'}
+.reveal {font-size:48px}    
