@@ -10,10 +10,14 @@
 
 <title>Social Media</title>
 
+<!-- CSS -->
 <link rel="stylesheet" href="css/reveal.min.css">
 <link rel="stylesheet" href="css/theme/default.css" id="theme">  
-<link rel="stylesheet" href="css/overrides.css" id="theme">
-<link rel="stylesheet" href="css/zenburn.css">
+<link rel="stylesheet" href="css/overrides.css">
+
+<!--
+<link rel="stylesheet" href="css/zenburn.css"> <!-- Für Code Highlighting -->
+-->
 
 <script>
 document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
@@ -30,16 +34,20 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
     <div class="slides">
         
         <!-- Titelfolie -->
-         <section>
+        <section>
             <h1>Social Meda</h1>
             <h3>Gefahren für Nutzer und Nicht-Nutzer</h3>
             <p>
                 <small>
-                    <span style="color:aqua">Dominic Rönicke</span> | 
-                    <span style="color:aqua">Erik Steinhagen</span> | 
-                    <span style="color:aqua">Felix Steinhagen</span> | 
+                    <span style="color:aqua">Dominic Rönicke</span> |
+                    <span style="color:aqua">Erik Steinhagen</span> |
+                    <span style="color:aqua">Felix Steinhagen</span> |
                     <span style="color:aqua">Stefan Doebe</span>
                 </small>
+            </p>
+            <p>
+                <!-- Weil ich's kann O.o -->
+                <small>Made with <a href="https://github.com/hakimel/reveal.js/">reveal.js</a></small>
             </p>
         </section>
         
@@ -51,43 +59,58 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
                 <li>Was ist Social Media?</li>
                 <li>Welche Arten existieren?</li>
                 <li>Wie sieht der Datenschutz aus?</li>
-                <li>Wo liegen die Gefahren für Nutzer und Nicht-Nutzer?</li>
+                <li>Wo liegen die Gefahren?</li>
+                    <ul>
+                        <li>Für Nutzer</li>
+                        <li>Für Nicht-Nutzer</li>
+                    </ul>
                 <li>Wie sieht die Zukunft aus?</li>
             </ol>
         </section>
-        
-        
-  
+
+
+        <!-- Was ist Social Media -->
         <section>
             <section>
                 <h2>1. Was ist Social Media?</h2>
-                <p class="fragment zoom-in visible" data-background="#007777" data-fragment-index="0">
+                <p class="fragment zoom-in visible" data-fragment-index="0">
                     <img src="img/wat.jpg">
                 </p>
             </section>
-            
+
             <section>
-                <!-- TODO: Überarbeitung -->
                 <ul>
-                    <li>Digitale Medien und Technologien</li>
-                    <li>Ermöglicht Generierung und Austausch von medialen Inhalten einzeln oder durch eine Gemeinschaft</li>
+                    <li>Sind Digitale Medien und Technologien</li>
+                    <li>Ermöglicht Generierung und Austausch von medialen Inhalten; einzeln oder durch eine Gemeinschaft</li>
                 </ul>
+            </section>
+
+            <section>
+                <!-- Online -->
+                <!-- <iframe width="560" height="315" src="http://www.youtube.com/embed/2_Ig0ClYlmM" frameborder="0" allowfullscreen></iframe> -->
+
+                <!-- Offline -->
+                <video src="video/social_media_revolution.mp4" controls></video>
+
+                <p>
+                    <small>Video ist 4 Jahre alt!</small>
+                </p>
             </section>
         </section>
         
-        
+
+        <!-- Welche Arten existieren? -->
         <section>
             <section>
                 <h2>2. Welche Arten existieren?</h2>
-            </section>
-            
-            <section>
-            <!-- TODO: Überarbeitung (Bild fehlt) -->
-                BILD!!!
+                <p class="fragment fade-in visible">
+                    <img src="img/logos.png">
+                </p>
             </section>
         </section>
-        
-        
+
+
+        <!--  Wie sieht der Datenschutz aus? -->
         <section>
             <section>
                 <h2>3. Wie sieht der Datenschutz aus?</h2>
@@ -98,7 +121,7 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
                 <h3>Welche Daten sammelt Facebook?</h3>
                 
                 <div id="cloud">
-                    <!-- Word Cloud wird per JS geladen -->
+                    <!-- Word Cloud wird per JS geladen js/cloud.js-->
                 </div>
             </section>
             
@@ -136,14 +159,24 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
             </section>
         </section>
         
-        
+
+        <!-- Wo liegen die Gefahren? -->
         <section>
             <section>
                 <h2>4. Wo liegen die Gefahren?</h2>
                 <small>Für Nutzer</small>
-                <!-- TODO: Überarbeitung (Screenshot) -->
-                http://www.weknowwhatyouredoing.com/
-                
+            </section>
+
+            <section>
+                <span class="fragment zoom-in">
+                     <img src="img/we_know_what_you_are_doing_screen.png">
+                </span>
+            </section>
+
+            <section>
+                 <span class="fragment fade-in">
+                     <img src="img/wkwyad_part.png">
+                 </span>
             </section>
             
             <section>
@@ -175,16 +208,29 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
             
                 <ul>
                     <li>Ausgrenzung vom sozialen Leben</li>
-                    <li>Daten werden trotzdem gesammelt</li>
+                    <li>Daten werden trotzdem gesammelt (IPs. Browserdaten etc.)</li>
                 </ul>
             </section>
         </section>
         
         <section>
             <section>
-                <!-- TODO: Fehlt noch -->
-            
                 <h2>5. Wie sieht die Zukunft aus?</h2>
+
+                 <span class="fragment fade-in" data-fragment-index="0">
+                     <img src="img/social_media_future.jpg">
+                 </span>
+
+            </section>
+
+            <section>
+                <ul>
+                    <li>Großer Einfluss in der Wirtschaft</li>
+                    <li>Neuer Berufsgruppen z.B. Social Media Manager</li>
+                    <li>Social Media im kompletten Alltag (Kühlschrank Twittert was ich gerade gegessen habe)</li>
+                    <li>Noch stärkerer Fokus auf mobile Dienste</li>
+                    <li>Engere Verknüpfung zu Webseiten Inhalt</li>
+                </ul>
             </section>
         </section>
         
@@ -195,6 +241,7 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
                 <li>http://www.weknowwhatyouredoing.com/</li>
                 <li>http://wifimaku.jimdo.com/9-social-media-marketing/9-2-was-sind-social-media/9-2-2-arten-von-social-media/</li>
                 <li>https://www.facebook.com/about/privacy/</li>
+                <li>http://nikbender.com/zukunft-von-social-media/</li>
             </ul>
             
             <br />
@@ -204,7 +251,9 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
         
         <section data-state="question" style="height: 700px;">
             <h2>Fragen?</h2>
-            <div id="question"></div>
+            <div id="question">
+                <!-- Fragezeichen werden per JS geladen js/question.js-->
+            </div>
         </section>
         
     </div>
@@ -218,10 +267,8 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
 
 <!-- Word Cloud -->
 <script src="js/cloud.js"></script>
-<!-- Question -->
+<!-- Question Cloud -->
 <script src="js/question.js"></script>
-
-
 
 </body>
 </html>

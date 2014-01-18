@@ -2,7 +2,7 @@
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
     footer: {
-        template: '<span class="logo"></span><span style="float:left">{{meta-description}}</span><span class="page-text">{{pageNumbers}}</span><span style="float:right">{{title}}</span>'
+        template: '<span class="logo"></span><span style="float:left">{{title}}</span><span class="page-text">{{pageNumbers}}</span><span style="float:right">{{meta-description}}</span>'
     },
     controls: true,
     progress: true,
