@@ -52,7 +52,7 @@ Reveal.addEventListener( 'cloud', function()
                     return fill(i); 
                 }
             )
-            .transition().delay(function(d, i) { return i / 1 * 1000; })
+            .transition().delay(function(d, i) { return i / 1 * 2500; })
             .attr("text-anchor", "middle")
             .attr("transform", 
                 function(d) 
