@@ -21,22 +21,7 @@ footer {text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);color:#eee;position:absolute
 .reveal .controls div.navigate-left {left:-30px;top:0;border-right-width:12px}
 .reveal .controls div.navigate-right {left:30px;top:0;border-left-width:12px}
 
-.reveal .controls div.navigate-left,
-.reveal .controls div.navigate-left.enabled {border-right-color:rgba(0, 0, 0, 0.4)}
 
-.reveal .controls div.navigate-right,
-.reveal .controls div.navigate-right.enabled {border-left-color:rgba(0, 0, 0, 0.4)}
-
-.reveal .controls div.navigate-up,
-.reveal .controls div.navigate-up.enabled {border-bottom-color:rgba(0, 0, 0, 0.4)}
-
-.reveal .controls div.navigate-down,
-.reveal .controls div.navigate-down.enabled {border-top-color:rgba(0, 0, 0, 0.4)}
-
-.reveal .controls div.navigate-left.enabled:hover {border-right-color:rgba(0, 0, 0, 0.8)}
-.reveal .controls div.navigate-right.enabled:hover {border-left-color:rgba(0, 0, 0, 0.8)}
-.reveal .controls div.navigate-up.enabled:hover {border-bottom-color:rgba(0, 0, 0, 0.8)}
-.reveal .controls div.navigate-down.enabled:hover {border-top-color:rgba(0, 0, 0, 0.8)}
 
 /*********************************************
  * PROGRESS BAR
